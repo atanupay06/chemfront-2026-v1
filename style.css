@@ -58,6 +58,50 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+.logo-pill {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background: rgba(15, 76, 117, 0.95);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.logo-pill-left,
+.logo-pill-right {
+    padding: 0.6rem 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-pill-left {
+    background: radial-gradient(circle at 30% 30%, #2563eb, #0f172a);
+}
+
+.logo-pill-right {
+    background: radial-gradient(circle at 70% 70%, #22d3ee, #020617);
+}
+
+.logo-pill-left img,
+.logo-pill-right img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .logo-pill {
+        margin: 0 auto 1rem auto;
+    }
+    .logo-pill-left img,
+    .logo-pill-right img {
+        height: 50px;
+        width: 50px;
+    }
+}
 
 .header-text h1 {
     font-size: 2.5rem;
@@ -462,3 +506,4 @@ body {
     text-align: center;
     margin-top: 0.5rem;
 }
+
