@@ -140,6 +140,12 @@ body {
     align-items: center;
     margin-bottom: 3rem;
 }
+.gridequ {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* equal width columns */
+  gap: 30px;
+  align-items: stretch; /* equal height cards */
+}
 
 .content-card {
     background: white;
@@ -462,5 +468,6 @@ body {
     text-align: center;
     margin-top: 0.5rem;
 }
+
 
 
