@@ -509,6 +509,47 @@ body {
     margin-top: 0.5rem;
 }
 
+/* color */
+
+.fee {
+    font-weight: 700;        /* bold */
+    font-size: 1.25rem;      /* larger amount */
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* INR styling */
+.fee.inr {
+    color: #16a34a;          /* green */
+}
+
+/* USD styling */
+.fee.usd {
+    color: #2563eb;          /* blue */
+}
+
+/* Currency icon styling */
+.fee::before {
+    font-size: 1.1rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+/* Optional: different icons (auto handled by symbol) */
+.fee.inr::before {
+    content: "₹";
+    margin-right: 2px;
+    display: none; /* hide if already in text */
+}
+
+.fee.usd::before {
+    content: "$";
+    margin-right: 2px;
+    display: none; /* hide if already in text */
+}
+
+
 
 
 
