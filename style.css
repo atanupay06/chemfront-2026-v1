@@ -180,6 +180,14 @@ body {
     gap: 1rem;
 }
 
+.sponsor-img {
+    max-width: 450px;   /* controls visible size */
+    width: auto;        /* prevents stretching */
+    height: auto;       /* keeps aspect ratio */
+    object-fit: contain;
+    margin: 0 auto;     /* center horizontally */
+}
+
 .section-img {
     width: 100%;
     height: 250px;
@@ -355,11 +363,11 @@ body {
     border: 4px solid #f1f5f9;
 }
 
-.sponsor-img {
+/* .sponsor-img {
     height: 100px;
     width: auto;
     margin-bottom: 1rem;
-}
+} */
 
 /* Venue & Gallery */
 .venue-content {
@@ -500,6 +508,7 @@ body {
     text-align: center;
     margin-top: 0.5rem;
 }
+
 
 
 
