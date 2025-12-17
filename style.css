@@ -549,6 +549,38 @@ body {
     display: none; /* hide if already in text */
 }
 
+/* commitee card */
+
+.committee-section {
+  margin-top: 50px;
+}
+
+.committee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.committee-pill {
+  background: #f1f5f9;
+  padding: 16px 18px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.committee-pill strong {
+  display: block;
+  font-size: 1rem;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.committee-pill span {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+
 
 
 
