@@ -15,7 +15,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 12px;
 }
 
 /* Header */
@@ -623,6 +623,7 @@ body {
   color: #64748b;
   line-height: 1.4;
 }
+
 
 
 
