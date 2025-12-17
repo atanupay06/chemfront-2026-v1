@@ -92,7 +92,7 @@ body {
     flex-wrap: wrap;  
     justify-content: center;
     align-items: center;
-    gap: 6px;                  
+    gap: 2px;                  
     list-style: none;
     padding: 0.75rem 0;
     margin: 0;
@@ -623,6 +623,7 @@ body {
   color: #64748b;
   line-height: 1.4;
 }
+
 
 
 
