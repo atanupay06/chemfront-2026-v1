@@ -402,6 +402,14 @@ body {
     list-style: none;
     margin: 1.5rem 0;
 }
+.category-list-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 pills per row */
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
 .pill-grid {
   display: grid;
@@ -492,6 +500,7 @@ body {
     text-align: center;
     margin-top: 0.5rem;
 }
+
 
 
 
