@@ -653,6 +653,25 @@ body {
     color: #ffffff;
     transform: scale(1.1);
 }
+/* Animation */
+.cta-secondary {
+    background: transparent;
+    color: #0f4c75;
+    border: 2px solid #0f4c75;
+    border-radius: 40px;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-secondary:hover {
+    background: #0f4c75;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(15, 76, 117, 0.3);
+}
 
 
 
