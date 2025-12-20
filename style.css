@@ -624,17 +624,31 @@ body {
   line-height: 1.4;
 }
 
+/* Developer credit bottom-right */
+.dev-credit {
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    color: #9ecbff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/* Hover effect */
+.dev-credit:hover {
+    background: #0f4c75;
+    color: #ffffff;
+    transform: scale(1.1);
+}
 
 
