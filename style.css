@@ -71,6 +71,33 @@ body {
     opacity: 0.9;
 }
 
+/* Mobile View */
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logos {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .header-text h1 {
+        font-size: 2rem;
+    }
+
+    .header-text p {
+        font-size: 1rem;
+    }
+}
+
+
 /* Navigation */
 .nav {
     background: #fff;
@@ -672,6 +699,7 @@ body {
     transform: translateY(-4px);
     box-shadow: 0 10px 25px rgba(15, 76, 117, 0.3);
 }
+
 
 
 
