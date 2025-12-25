@@ -700,6 +700,54 @@ body {
     box-shadow: 0 10px 25px rgba(15, 76, 117, 0.3);
 }
 
+/* =========================
+   MOBILE VIEW ONLY FIX
+   ========================= */
+@media (max-width: 768px) {
+
+    /* Stack registration + sponsor vertically */
+    #registration .grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Reduce side padding */
+    #registration .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* Registration cards spacing */
+    #registration .content-card {
+        padding: 1.2rem;
+    }
+
+    /* Registration fee list → single column */
+    #registration .category-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* Sponsor image responsive */
+    #registration .sponsor-img {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem auto 0;
+        display: block;
+    }
+
+    /* Center sponsor text */
+    #registration .caption {
+        text-align: center;
+    }
+
+    /* Full-width button on mobile */
+    #registration .btn-large {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 
 
 
